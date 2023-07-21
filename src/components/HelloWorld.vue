@@ -19,7 +19,6 @@ scene.background = new Color('skyblue')
 
 
 onMounted(() => {
-  console.log('--container', container.value)
   const fov = 35;
   const dom: HTMLElement = container.value as HTMLElement
   // const dom= document.getElementById("container");
